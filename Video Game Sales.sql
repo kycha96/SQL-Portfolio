@@ -1,3 +1,9 @@
+CREATE DATABASE video_game;
+
+--Imported csv file into MySQL workbench
+
+SELECT * FROM video_game_sales;
+
 -- Top 10 Best-Selling Video Games in the World
 SELECT Name, Platform, Year, Genre, Publisher, Global_Sales FROM video_game_sales
 ORDER BY Global_Sales DESC
